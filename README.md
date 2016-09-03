@@ -11,12 +11,11 @@ DraftDayTool.py - main PyQt inteface
 
 rankings.py - where most of the math is done, calls the database then generates specific tables to send back to interface
 
-2016Analysis.db - SQLite v3 DB with gamelog data for the 2011-2015 seasons, also has some temporary tables to keep track of teams
+nbaapiscrape.py - script used to collect gamelog data
+
+helpdialogs.py - help dialogs called by GUI
 
 
-Data Source:
-
-Gamelogs for the 2011-2015 seasons, scraped from NBA.com's API.
 
 
 Features:
