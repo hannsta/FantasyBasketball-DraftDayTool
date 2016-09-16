@@ -6,8 +6,9 @@ Python tool designed to aid head-to-head players in drafting fantasy basketball 
 ###Files:
 * DraftDayTool.py - main PyQt inteface
 * rankings.py - where most of the math is done, calls the database then generates specific tables to send back to interface
-* nbaapiscrape.py - script used to collect gamelog data
 * helpdialogs.py - help dialogs called by GUI
+* /Images - contains images used by the tool's interface
+* /Scrape-Scripts - contains a variety of scraping scripts to gather data from NBA.com and BasketBall-Reference.com
  
 ###Features:
  
@@ -16,6 +17,13 @@ Python tool designed to aid head-to-head players in drafting fantasy basketball 
 * Double click a players name to see advanced stats and trend analysis.
 
 
+###Installation
+Since this tool is not in executable form yet it must be run as a Python script.
+* Copy all three python files into a single folder
+* Copy all three images from the /Images folder into the same folder
+* Ensure that nessesary Python modules are installed (see Requirements)
+* Run DraftDayTool.py from the command line
+
 ###Requirements:
-pyqt5,numpy,scipy,matplotlib
+* pyqt5, numpy, scipy, matplotlib
 
